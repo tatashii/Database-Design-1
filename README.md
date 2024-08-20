@@ -5,62 +5,75 @@
     <h1 align="center">DATABASE-DESIGN-1</h1>
 </p>
 <p align="center">
-    <em>This repo for assignment 1 [ Reading Chs [ 2 , 3 , 4 , 5 ] from Practical Web Database Design Book :open_book:]</em>
+    <em>This repo is for assignment 1: [Reading Chs [2, 3, 4, 5] from Practical Web Database Design Book 📖]</em>
 </p>
-  
-<p align="center">
-	</p>
 <hr>
 
 ## 🔗 Quick Links
 
 > - [📍 Overview](#-overview)
+> - [📄 Create the DB Schema Script](#-create-the-db-schema-script)
+> - [🔗 Identify Relationships](#-identify-the-relationships-between-entities)
+> - [📊 Draw the ERD Diagram](#-draw-the-erd-diagram)
+> - [📅 Daily Revenue Report](#-daily-revenue-report)
+> - [📈 Monthly Top-Selling Products Report](#-monthly-top-selling-products-report)
+> - [💵 High-Value Customers Report](#-high-value-customers-report)
+> - [🛠️ Denormalization Mechanism](#-denormalization-mechanism)
 
 ---
 
 ## 📍 Overview
 
-Given the following sample entities do the following tasks
+For this assignment, you will be working on a sample database design. The tasks include:
 
-* Create the DB schema script with the following entities
-* Identify the relationships between entities
-* Draw the ERD diagram of this sample schem
-
-* Write an SQL query to generate a daily report of the total revenue for a specific date.
-* Write an SQL query to generate a monthly report of the top-selling products in a given month.
-* Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month.
-Include customer names and their total order amounts. [Complex query].
-
-* How we can apply a denormalization mechanism on customer and order entities.
+- Creating a DB schema script with the following entities.
+- Identifying the relationships between entities.
+- Drawing the ERD diagram of the sample schema.
+- Writing SQL queries for various reports.
+- Applying denormalization mechanisms.
 
 ---
 
-## Create the DB schema script with the following entities
+## 📄 Create the DB Schema Script
 
----
-## Identify the relationships between entities
----
-## Draw the ERD diagram of this sample schem
+Provide the SQL script to create the database schema with the given entities.
 
 ---
 
-## Write an SQL query to generate a daily report of the total revenue for a specific date.
+## 🔗 Identify the Relationships Between Entities
+
+Describe the relationships between the entities, specifying primary and foreign keys.
 
 ---
+
+## 📊 Draw the ERD Diagram of This Sample Schema
+
+Include an ERD diagram that visually represents the entities and their relationships.
+
+---
+
+## 📅 Write an SQL Query to Generate a Daily Revenue Report
+
+Write an SQL query to generate a daily report of the total revenue for a specific date.
+
+---
+
+## 📈 Write an SQL Query to Generate a Monthly Top-Selling Products Report
 
 Write an SQL query to generate a monthly report of the top-selling products in a given month.
 
 ---
 
-Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month.
-Include customer names and their total order amounts. [Complex query].
+## 💵 Write an SQL Query to Retrieve High-Value Customers
+
+Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month. Include customer names and their total order amounts.
 
 ---
 
-How we can apply a denormalization mechanism on customer and order entities.
+## 🛠️ How to Apply Denormalization on Customer and Order Entities
+
+Discuss the denormalization mechanism and how it can be applied to the customer and order entities.
 
 ---
 
 [**Return**](#-quick-links)
-
----
