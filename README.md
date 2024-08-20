@@ -5,17 +5,9 @@
     <h1 align="center">DATABASE-DESIGN-1</h1>
 </p>
 <p align="center">
-    <em>HTTP error 401 for prompt `slogan`</em>
+    <em>This repo for assignment 1 [ Reading Chs [ 2 , 3 , 4 , 5 ] from Practical Web Database Design Book :open_book:]</em>
 </p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/tatashii/Database-Design-1.git?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/tatashii/Database-Design-1.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/tatashii/Database-Design-1.git?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/tatashii/Database-Design-1.git?style=flat&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-		<em>Developed with the software and tools below.</em>
-</p>
+  
 <p align="center">
 	</p>
 <hr>
