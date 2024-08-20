@@ -27,9 +27,7 @@ Given the following sample entities do the following tasks
 
 * Create the DB schema script with the following entities
 
-* <h2 style="background-color:green; color:white; padding:10px;">
-  Create the DB schema script with the following entities
-</h2>
+## $\colorbox{green}{{\color{white}{Create \ the \ DB schema \ script \ with \ the \ following \ entities}}}$
 
 * Identify the relationships between entities
 * Draw the ERD diagram of this sample schem
