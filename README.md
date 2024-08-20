@@ -18,7 +18,7 @@
 > - [📅 Daily Revenue Report](#-Write-an-SQL-Query-to-Generate-a-Daily-Revenue-Report)
 > - [📈 Monthly Top-Selling Products Report](#-write-an-sql-query-to-generate-a-monthly-top-selling-products-report)
 > - [💵 High-Value Customers Report](#-write-an-sql-query-to-retrieve-high-value-customers)
-> - [🛠️ Denormalization-Mechanism](#-how-to-apply-denormalization-on-customer-and-order-entities)
+> - [🛠️ Denormalization Mechanism](#-how-to-apply-denormalization-on-customer-and-order-entities)
 
 ---
 
