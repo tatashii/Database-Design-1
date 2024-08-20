@@ -1,12 +1,4 @@
 
-                                                                                                                                                                                                                               
-                                                                                                               
-
-![image](https://github.com/user-attachments/assets/1f3315ea-15a2-409e-acae-0e7f040a9e45)
-
-
-                                                                                                                                                           
-
 
 
 <p align="center">
