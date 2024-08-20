@@ -38,7 +38,8 @@ For this assignment, you will be working on a sample database design. The tasks 
 
 Provide the SQL script to create the database schema with the given entities.
 
-###![image](https://github.com/user-attachments/assets/b6c33a5e-343b-4c83-bb8a-2023241cdf47)
+
+![image](https://github.com/user-attachments/assets/b6c33a5e-343b-4c83-bb8a-2023241cdf47)
 
 
 ---
