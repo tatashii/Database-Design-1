@@ -7,13 +7,9 @@
 <p align="center">
     <em>This repo for assignment 1 [ Reading Chs [ 2 , 3 , 4 , 5 ] from Practical Web Database Design Book :open_book:]</em>
 </p>
-
+  
 <p align="center">
-	<img src="https://img.shields.io/github/license/eli64s/readme-ai-streamlit?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/eli64s/readme-ai-streamlit?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/eli64s/readme-ai-streamlit?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/eli64s/readme-ai-streamlit?style=flat&color=0080ff" alt="repo-language-count">
-</p>
+	</p>
 <hr>
 
 ## 🔗 Quick Links
@@ -28,7 +24,7 @@ Given the following sample entities do the following tasks
 
 * Create the DB schema script with the following entities
 * Identify the relationships between entities
-* Draw the ERD diagram of this sample schema
+* Draw the ERD diagram of this sample schem
 
 * Write an SQL query to generate a daily report of the total revenue for a specific date.
 * Write an SQL query to generate a monthly report of the top-selling products in a given month.
@@ -39,31 +35,29 @@ Include customer names and their total order amounts. [Complex query].
 
 ---
 
-## $\colorbox{green}{{\color{white}{Create\ the\ DB\ schema\ script\ with\ the\ following\ entities}}}$
+## Create the DB schema script with the following entities
+
+---
+## Identify the relationships between entities
+---
+## Draw the ERD diagram of this sample schem
 
 ---
 
-## $\colorbox{green}{{\color{white}{Identify\ the\ relationships\ between\ entities}}}$
+## Write an SQL query to generate a daily report of the total revenue for a specific date.
 
 ---
 
-## $\colorbox{green}{{\color{white}{Draw\ the\ ERD\ diagram\ of\ this\ sample\ schema}}}$
+Write an SQL query to generate a monthly report of the top-selling products in a given month.
 
 ---
 
-## $\colorbox{green}{{\color{white}{Write\ an\ SQL\ query\ to\ generate\ a\ daily\ report\ of\ the\ total\ revenue\ for\ a\ specific\ date}}}$
+Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month.
+Include customer names and their total order amounts. [Complex query].
 
 ---
 
-## $\colorbox{green}{{\color{white}{Write\ an\ SQL\ query\ to\ generate\ a\ monthly\ report\ of\ the\ top-selling\ products\ in\ a\ given\ month}}}$
-
----
-
-## $\colorbox{green}{{\color{white}{Write\ a\ SQL\ query\ to\ retrieve\ a\ list\ of\ customers\ who\ have\ placed\ orders\ totaling\ more\ than\ \$500\ in\ the\ past\ month.\ Include\ customer\ names\ and\ their\ total\ order\ amounts.\ [Complex\ query]}}}$
-
----
-
-## $\colorbox{green}{{\color{white}{How\ we\ can\ apply\ a\ denormalization\ mechanism\ on\ customer\ and\ order\ entities}}}$
+How we can apply a denormalization mechanism on customer and order entities.
 
 ---
 
