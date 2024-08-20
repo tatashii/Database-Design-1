@@ -24,7 +24,7 @@
 ## 📍 Overview
 
 Given the following sample entities do the following tasks
-> - [Create the DB schema script with the following entities](#-Create)
+> - [Create the DB schema script with the following entities](#-1)
 * Identify the relationships between entities
 * Draw the ERD diagram of this sample schem
 
@@ -37,7 +37,7 @@ Include customer names and their total order amounts. [Complex query].
 
 ---
 
-##  Create the DB schema script with the following entities
+##  1. Create the DB schema script with the following entities
 ---
 
 ## 📦 Features
