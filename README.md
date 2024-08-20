@@ -14,7 +14,7 @@
 > - [📍 Overview](#-overview)
 > - [📄 Create the DB Schema Script](#-create-the-db-schema-script)
 > - [🔗 Identify Relationships](#-identify-the-relationships-between-entities)
-> - [📊 Draw the ERD Diagram](#-draw-the-erd-diagram)
+> - [📊 Draw the ERD Diagram](#-draw-the-erd-diagram--of-This-Sample-Schema)
 > - [📅 Daily Revenue Report](#-daily-revenue-report)
 > - [📈 Monthly Top-Selling Products Report](#-monthly-top-selling-products-report)
 > - [💵 High-Value Customers Report](#-high-value-customers-report)
