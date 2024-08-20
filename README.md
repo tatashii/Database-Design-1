@@ -1,29 +1,16 @@
 
                                                                                                                                                                                                                                
-                                                                                                                                                                                    dddddddd                                   
-HHHHHHHHH     HHHHHHHHH                   jjjj                                           RRRRRRRRRRRRRRRRR                                                                          d::::::d                                   
-H:::::::H     H:::::::H                  j::::j                                          R::::::::::::::::R                                                                         d::::::d                                   
-H:::::::H     H:::::::H                   jjjj                                           R::::::RRRRRR:::::R                                                                        d::::::d                                   
-HH::::::H     H::::::HH                                                                  RR:::::R     R:::::R                                                                       d:::::d                                    
-  H:::::H     H:::::H    aaaaaaaaaaaaa  jjjjjjj  aaaaaaaaaaaaa  rrrrr   rrrrrrrrr          R::::R     R:::::R  aaaaaaaaaaaaa      mmmmmmm    mmmmmmm     aaaaaaaaaaaaa      ddddddddd:::::d   aaaaaaaaaaaaa  nnnn  nnnnnnnn    
-  H:::::H     H:::::H    a::::::::::::a j:::::j  a::::::::::::a r::::rrr:::::::::r         R::::R     R:::::R  a::::::::::::a   mm:::::::m  m:::::::mm   a::::::::::::a   dd::::::::::::::d   a::::::::::::a n:::nn::::::::nn  
-  H::::::HHHHH::::::H    aaaaaaaaa:::::a j::::j  aaaaaaaaa:::::ar:::::::::::::::::r        R::::RRRRRR:::::R   aaaaaaaaa:::::a m::::::::::mm::::::::::m  aaaaaaaaa:::::a d::::::::::::::::d   aaaaaaaaa:::::an::::::::::::::nn 
-  H:::::::::::::::::H             a::::a j::::j           a::::arr::::::rrrrr::::::r       R:::::::::::::RR             a::::a m::::::::::::::::::::::m           a::::ad:::::::ddddd:::::d            a::::ann:::::::::::::::n
-  H:::::::::::::::::H      aaaaaaa:::::a j::::j    aaaaaaa:::::a r:::::r     r:::::r       R::::RRRRRR:::::R     aaaaaaa:::::a m:::::mmm::::::mmm:::::m    aaaaaaa:::::ad::::::d    d:::::d     aaaaaaa:::::a  n:::::nnnn:::::n
-  H::::::HHHHH::::::H    aa::::::::::::a j::::j  aa::::::::::::a r:::::r     rrrrrrr       R::::R     R:::::R  aa::::::::::::a m::::m   m::::m   m::::m  aa::::::::::::ad:::::d     d:::::d   aa::::::::::::a  n::::n    n::::n
-  H:::::H     H:::::H   a::::aaaa::::::a j::::j a::::aaaa::::::a r:::::r                   R::::R     R:::::R a::::aaaa::::::a m::::m   m::::m   m::::m a::::aaaa::::::ad:::::d     d:::::d  a::::aaaa::::::a  n::::n    n::::n
-  H:::::H     H:::::H  a::::a    a:::::a j::::ja::::a    a:::::a r:::::r                   R::::R     R:::::Ra::::a    a:::::a m::::m   m::::m   m::::ma::::a    a:::::ad:::::d     d:::::d a::::a    a:::::a  n::::n    n::::n
-HH::::::H     H::::::HHa::::a    a:::::a j::::ja::::a    a:::::a r:::::r                 RR:::::R     R:::::Ra::::a    a:::::a m::::m   m::::m   m::::ma::::a    a:::::ad::::::ddddd::::::dda::::a    a:::::a  n::::n    n::::n
-H:::::::H     H:::::::Ha:::::aaaa::::::a j::::ja:::::aaaa::::::a r:::::r                 R::::::R     R:::::Ra:::::aaaa::::::a m::::m   m::::m   m::::ma:::::aaaa::::::a d:::::::::::::::::da:::::aaaa::::::a  n::::n    n::::n
-H:::::::H     H:::::::H a::::::::::aa:::aj::::j a::::::::::aa:::ar:::::r                 R::::::R     R:::::R a::::::::::aa:::am::::m   m::::m   m::::m a::::::::::aa:::a d:::::::::ddd::::d a::::::::::aa:::a n::::n    n::::n
-HHHHHHHHH     HHHHHHHHH  aaaaaaaaaa  aaaaj::::j  aaaaaaaaaa  aaaarrrrrrr                 RRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaammmmmm   mmmmmm   mmmmmm  aaaaaaaaaa  aaaa  ddddddddd   ddddd  aaaaaaaaaa  aaaa nnnnnn    nnnnnn
-                                         j::::j                                                                                                                                                                                
-                               jjjj      j::::j                                                                                                                                                                                
-                              j::::jj   j:::::j                                                                                                                                                                                
-                              j::::::jjj::::::j                                                                                                                                                                                
-                               jj::::::::::::j                                                                                                                                                                                 
-                                 jjj::::::jjj                                                                                                                                                                                  
-                                    jjjjjj                                                                                                                                                                                     
+                                                                                                               
+
+ _   _       _             ______                          _             
+| | | |     (_)            | ___ \                        | |            
+| |_| | __ _ _  __ _ _ __  | |_/ /__ _ _ __ ___   __ _  __| | __ _ _ __  
+|  _  |/ _` | |/ _` | '__| |    // _` | '_ ` _ \ / _` |/ _` |/ _` | '_ \ 
+| | | | (_| | | (_| | |    | |\ \ (_| | | | | | | (_| | (_| | (_| | | | |
+\_| |_/\__,_| |\__,_|_|    \_| \_\__,_|_| |_| |_|\__,_|\__,_|\__,_|_| |_|
+           _/ |                                                          
+          |__/                                                           
+                                                                                                                                                                                    
 
 
 
