@@ -18,26 +18,13 @@
 ## 🔗 Quick Links
 
 > - [📍 Overview](#-overview)
-> - [📦 Features](#-features)
-> - [📂 Repository Structure](#-repository-structure)
-> - [🧩 Modules](#-modules)
-> - [🚀 Getting Started](#-getting-started)
->   - [⚙️ Installation](#️-installation)
->   - [🤖 Running Database-Design-1](#-running-Database-Design-1)
->   - [🧪 Tests](#-tests)
-> - [🛠 Project Roadmap](#-project-roadmap)
-> - [🤝 Contributing](#-contributing)
-> - [📄 License](#-license)
-> - [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 📍 Overview
 
 Given the following sample entities do the following tasks
-> - [📍 Overview](#-overview)
-> - 
-> - [Create the DB schema script with the following entities](#-create the DB schema script with the following entities)
+> - [Create the DB schema script with the following entities](#-Create)
 * Identify the relationships between entities
 * Draw the ERD diagram of this sample schem
 
