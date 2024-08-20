@@ -38,9 +38,8 @@ Include customer names and their total order amounts. [Complex query].
 
 ---
 
-<p style="background-color:yellow; font-weight:bold;">
-   Create the DB schema script with the following entities
-</p>
+## Create the DB schema script with the following entities
+
 ---
 ## Identify the relationships between entities
 ---
