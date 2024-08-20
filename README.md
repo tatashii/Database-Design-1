@@ -34,8 +34,8 @@
 
 ## 📍 Overview
 
-Given the following sample entities do the following tasks
-* Create the DB schema script with the following entities
+Given the following sample entities do the following tasks](#- Create the DB schema script with the following entities)
+* > - [Create the DB schema script with the following entities
 * Identify the relationships between entities
 * Draw the ERD diagram of this sample schem
 
@@ -46,6 +46,9 @@ Include customer names and their total order amounts. [Complex query].
 
 * How we can apply a denormalization mechanism on customer and order entities.
 
+---
+
+##  Create the DB schema script with the following entities
 ---
 
 ## 📦 Features
