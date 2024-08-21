@@ -53,6 +53,8 @@ Describe the relationships between the entities, specifying primary and foreign 
 ## 📊 Draw the ERD Diagram of This Sample Schema
 
 Include an ERD diagram that visually represents the entities and their relationships.
+![image](https://github.com/user-attachments/assets/431e81f4-7bc3-427a-8e88-95a2ffd951f9)
+
 
 ---
 
