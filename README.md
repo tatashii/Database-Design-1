@@ -203,6 +203,18 @@ ORDER BY product_count DESC;
 
 Write a SQL query to retrieve a list of customers who have placed orders totaling more than $500 in the past month. Include customer names and their total order amounts.
 
+```
+select c.first_name , c.last_name , sum(o.total_amount) as total_order_amount , month(o.order_date) as month
+from customers c
+join orders o on c.customer_id = o.customer_id
+where month(o.order_date) = 8
+GROUP BY c.first_name , c.last_name , month(o.order_date)
+Having total_order_amount > 500 
+ORDER BY total_order_amount DESC;
+```
+![image](https://github.com/user-attachments/assets/69f3f11f-a4c6-4d20-9b19-ac4f677fe95f)
+
+
 ---
 
 ## 🛠️ How to Apply Denormalization on Customer and Order Entities
