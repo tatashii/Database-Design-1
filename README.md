@@ -55,7 +55,8 @@ You can see relationships among entites in the system in Draw the ERD Diagram se
 ## 📊 Draw the ERD Diagram of This Sample Schema
 
 Include an ERD diagram that visually represents the entities and their relationships.
-![image](https://github.com/user-attachments/assets/431e81f4-7bc3-427a-8e88-95a2ffd951f9)
+![image](https://github.com/user-attachments/assets/c0c5ff99-857b-4861-b6cb-65bf6d6ab687)
+
 
 
 ---
