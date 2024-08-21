@@ -64,6 +64,20 @@ Include an ERD diagram that visually represents the entities and their relations
 
 Write an SQL query to generate a daily report of the total revenue for a specific date.
 
+
+![image](https://github.com/user-attachments/assets/c9a4359c-ab29-49f9-87f6-71cd3ad45d38)
+
+``` mysql
+select date(order_date) , sum(total_amount) as total_revenue
+from orders
+where DATE(order_date) = '2024-08-21'
+GROUP BY date(order_date)  
+ORDER BY date(order_date) DESC;
+
+```
+
+![image](https://github.com/user-attachments/assets/4dafe4f9-593b-4cac-acfb-46bc3dc21d94)
+
 ---
 
 ## 📈 Write an SQL Query to Generate a Monthly Top-Selling Products Report
