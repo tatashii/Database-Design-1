@@ -305,7 +305,7 @@ Discuss the denormalization mechanism and how it can be applied to the customer 
 ## 1 - duplicate data to reduce selecting data from different tables 
 ### compinig all customers and orders columns in on table 
 ## 2 - by applying of  aggregation fuctions on specific columns
-### like adding sum(total_amount)  and sum(total_orders) as columns in customers table by this we will increase using Join and improve the website performance
+### like adding sum(total_amount)  and sum(total_orders) as columns in customers table by this we will decrease using Join and improve the website performance
 ---
 
 [**Return**](#-quick-links)
