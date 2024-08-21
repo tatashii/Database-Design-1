@@ -41,6 +41,89 @@ Provide the SQL script to create the database schema with the given entities.
 
 ![image](https://github.com/user-attachments/assets/b6c33a5e-343b-4c83-bb8a-2023241cdf47)
 
+``` mysql
+create schema if not exists Ecommerce;
+
+use ecommerce;
+
+drop schema Ecommerce;
+
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS product_category;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS product_order; -- order_details 
+DROP TABLE IF EXISTS customers;
+
+create table products (
+
+	product_id int primary key,
+    name varchar(50) not null,
+    description varchar(250) not null ,
+    price decimal (10,2) not null check(price between   0 and  99999999.99),
+    stock_quantity int
+
+);
+
+
+
+create table categories(
+
+	category_id int primary key,
+	category_name varchar(50) not null
+);
+
+create table product_category(
+	
+    product_id int ,
+    category_id int ,
+    isDefault boolean default true,
+    
+    foreign key (product_id) references products (product_id),
+    foreign key (category_id) references categories (category_id)
+    
+);
+
+create table customers(
+
+	customer_id int primary key,
+    first_name VARCHAR(50) NOT NULL CHECK (
+        first_name REGEXP '^[A-Za-z].*'
+    ),
+    
+    last_name VARCHAR(50) NOT NULL CHECK (
+        last_name REGEXP '^[A-Za-z].*'
+    ),
+    
+    email varchar(50) not null,
+    
+    password varchar(50) not null
+);
+
+create table orders(
+
+	order_id int primary key,
+    customer_id int,
+    order_date datetime,
+    total_amount decimal(10,2) not null check( total_amount > 0 ),
+    
+    foreign key (customer_id) references customers (customer_id)
+);
+
+create table product_order(
+	
+    product_id int ,
+    order_id int ,
+    unit_price decimal (10,2) not null check(unit_price between   0 and  99999999.99),
+    unit_quantity int not null check(unit_quantity > 0),
+    
+    foreign key (product_id) references products (product_id),
+    foreign key (order_id) references orders (order_id)
+    
+);
+
+```
+
 
 ---
 
