@@ -86,6 +86,34 @@ ORDER BY date(order_date) DESC;
 
 Write an SQL query to generate a monthly report of the top-selling products in a given month.
 
+### Orders Table 
+
+![image](https://github.com/user-attachments/assets/f45d34d4-2ce4-4321-b524-a53d1788ebbe)
+
+---
+### Products Table
+
+![image](https://github.com/user-attachments/assets/b127154f-60d8-4b8f-acbb-3b0da64262d1)
+
+---
+
+### Orders_Product (Joining table)
+
+![image](https://github.com/user-attachments/assets/af40fe9d-f2bc-4ebf-b102-c3b6f4b7ab3c)
+
+
+``` mysql
+select month(order_date) as month , count(products.product_id) as product_count , name as product_name
+from orders 
+join product_order on orders.order_id = product_order.order_id
+join products on products.product_id = product_order.product_id
+GROUP BY  month ,  name 
+ORDER BY product_count DESC;
+
+```
+![image](https://github.com/user-attachments/assets/851e99e3-26e1-4c27-a6d0-c2518a0d2078)
+
+
 ---
 
 ## 💵 Write an SQL Query to Retrieve High-Value Customers
