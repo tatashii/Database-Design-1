@@ -68,6 +68,32 @@ create table products (
 
 
 create table categories(
+create schema if not exists Ecommerce;
+
+use ecommerce;
+
+drop schema Ecommerce;
+
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS categories;
+DROP TABLE IF EXISTS product_category;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS product_order; -- order_details 
+DROP TABLE IF EXISTS customers;
+
+create table products (
+
+	product_id int primary key,
+    name varchar(50) not null,
+    description varchar(250) not null ,
+    price decimal (10,2) not null check(price between   0 and  99999999.99),
+    stock_quantity int
+
+);
+
+
+
+create table categories(
 
 	category_id int primary key,
 	category_name varchar(50) not null
@@ -121,6 +147,59 @@ create table product_order(
     foreign key (order_id) references orders (order_id)
     
 );
+
+
+
+
+
+------------------------------------------------- data script  ------------------------------------------------
+
+-- Insert data into customers table
+INSERT INTO customers (customer_id, first_name, last_name, email, password)
+VALUES
+(1, 'John', 'Doe', 'john.doe@example.com', 'password1'),
+(2, 'Jane', 'Smith', 'jane.smith@example.com', 'password2'),
+(3, 'Alice', 'Brown', 'alice.brown@example.com', 'password3');
+
+-- Insert data into categories table
+INSERT INTO categories (category_id, category_name)
+VALUES
+(1, 'Electronics'),
+(2, 'Books'),
+(3, 'Clothing');
+
+-- Insert data into products table
+INSERT INTO products (product_id, name, description, price, stock_quantity)
+VALUES
+(1, 'Laptop', 'A high-performance laptop.', 899.99, 50),
+(2, 'Smartphone', 'Latest model smartphone.', 699.99, 100),
+(3, 'T-Shirt', 'Comfortable cotton t-shirt.', 19.99, 200),
+(4, 'Book', 'An interesting novel.', 9.99, 300);
+
+-- Insert data into product_category table
+INSERT INTO product_category (product_id, category_id, isDefault)
+VALUES
+(1, 1, true),  -- Laptop belongs to Electronics
+(2, 1, true),  -- Smartphone belongs to Electronics
+(3, 3, true),  -- T-Shirt belongs to Clothing
+(4, 2, true);  -- Book belongs to Books
+
+-- Insert data into orders table
+INSERT INTO orders (order_id, customer_id, order_date, total_amount)
+VALUES
+(1, 1, '2024-08-21 10:30:00', 919.97),  
+(2, 2, '2024-08-21 11:00:00', 699.99), 
+(3, 3, '2024-08-21 12:00:00', 29.98); 
+
+-- Insert data into product_order table
+INSERT INTO product_order (product_id, order_id, unit_price, unit_quantity)
+VALUES
+(1, 1, 899.99, 1),  -- 1 Laptop in order 1
+(4, 1, 9.99, 2),    -- 2 Books in order 1
+(2, 2, 699.99, 1),  -- 1 Smartphone in order 2
+(3, 3, 19.99, 1),   -- 1 T-Shirt in order 3
+(4, 3, 9.99, 1);    -- 1 Book in order 3
+
 
 ```
 
@@ -221,6 +300,12 @@ ORDER BY total_order_amount DESC;
 
 Discuss the denormalization mechanism and how it can be applied to the customer and order entities.
 
+# We can achieve dernormalization between customer and order entities  by 
+
+## 1 - duplicate data to reduce processing data by selecting data from different tables 
+### compinig all customers and orders columns in on table 
+## 2 - by using aggregation fuctions
+### like adding total_amount and total_orders as columns in customers table
 ---
 
 [**Return**](#-quick-links)
