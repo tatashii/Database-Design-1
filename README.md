@@ -302,10 +302,10 @@ Discuss the denormalization mechanism and how it can be applied to the customer 
 
 # We can achieve dernormalization between customer and order entities  by 
 
-## 1 - duplicate data to reduce processing data by selecting data from different tables 
+## 1 - duplicate data to reduce selecting data from different tables 
 ### compinig all customers and orders columns in on table 
-## 2 - by using aggregation fuctions
-### like adding total_amount and total_orders as columns in customers table
+## 2 - by applying of  aggregation fuctions on specific columns
+### like adding sum(total_amount)  and sum(total_orders) as columns in customers table by this we will increase using Join and improve the website performance
 ---
 
 [**Return**](#-quick-links)
