@@ -48,6 +48,8 @@ Provide the SQL script to create the database schema with the given entities.
 
 Describe the relationships between the entities, specifying primary and foreign keys.
 
+You can see relationships among entites in the system in Draw the ERD Diagram section.
+
 ---
 
 ## 📊 Draw the ERD Diagram of This Sample Schema
